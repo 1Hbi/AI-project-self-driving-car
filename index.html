@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>self driving car no libraries</title>
+    <link rel="stylesheet" href="stayle.css">
+</head>
+<body>
+    <!-- Canvas for drawing the cars -->
+    <canvas id="carCanvas"></canvas>
+
+    <!-- Save and discard buttons for managing data -->
+    <div id="verticalButtons">
+        <button onclick="save()">💾</button>
+        <button onclick="discard()">💀</button>
+    </div>
+
+    <!-- Canvas for visualizing the neural network -->
+    <canvas id="networkCanvas"></canvas>
+
+    <!-- JavaScript files for the project -->
+    <script src="visualizer.js"></script>
+    <script src="network.js"></script>
+    <script src="sensor.js"></script>
+    <script src="utils.js"></script>
+    <script src="road.js"></script>
+    <script src="controls.js"></script>
+    <script src="car.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
